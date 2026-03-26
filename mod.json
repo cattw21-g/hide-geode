@@ -9,18 +9,18 @@
 	},
 	"id": "cattw21.hide_geode",
 	"name": "Hide Geode Button",
-	"version": "v1.0.0",
+	"version": "v1.5.0",
 	"developer": "Cattw21",
 	"description": "Cleans up your homescreen by hiding the Geode button. Open Geode via custom keybinds or by tapping the top-right corner on mobile.",
-	"tags": [ "ui", "customization", "utility", "qol", "menu" ],
+	"tags": [ "interface", "customization", "utility" ],
 	"settings": {
 		"hide-button": {
 			"name": "Button Visibility",
 			"type": "string",
-			"default": "Ghost Mode (Mobile)",
+			"default": "Ghost Mode (Mobile Safe)",
 			"one-of": [
 				"Visible",
-				"Ghost Mode (Mobile)",
+				"Ghost Mode (Mobile Safe)",
 				"Completely Hidden"
 			],
 			"description": "Ghost Mode hides the button but lets you tap the top-right corner of the screen to open the menu."
