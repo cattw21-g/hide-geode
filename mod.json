@@ -1,0 +1,36 @@
+{
+	"geode": "5.4.1",
+	"gd": {
+		"win": "2.2081",
+		"mac": "2.2081",
+		"android": "2.2081",
+		"ios": "2.2081",
+		"linux": "2.2081"
+	},
+	"id": "cattw21.hide_geode",
+	"name": "Hide Geode Button",
+	"version": "v1.0.0",
+	"developer": "Cattw21",
+	"description": "Cleans up your homescreen by hiding the Geode button. Open Geode via custom keybinds or by tapping the top-right corner on mobile.",
+	"tags": [ "ui", "customization", "utility", "qol", "menu" ],
+	"settings": {
+		"hide-button": {
+			"name": "Button Visibility",
+			"type": "string",
+			"default": "Ghost Mode (Mobile)",
+			"one-of": [
+				"Visible",
+				"Ghost Mode (Mobile)",
+				"Completely Hidden"
+			],
+			"description": "Ghost Mode hides the button but lets you tap the top-right corner of the screen to open the menu."
+		},
+		"menu-key": {
+			"type": "keybind",
+			"name": "Geode Menu Keybind",
+			"default": "F3",
+			"category": "universal",
+			"description": "Press to open the Geode Mod Menu."
+		}
+	}
+}
