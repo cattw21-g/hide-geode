@@ -7,9 +7,9 @@
 		"ios": "2.2081",
 		"linux": "2.2081"
 	},
-	"id": "cattw21.hide_geode",
+	"id": "cattw21.hide_geode-button",
 	"name": "Hide Geode Button",
-	"version": "v1.5.0",
+	"version": "v1.0.1",
 	"developer": "Cattw21",
 	"description": "Cleans up your homescreen by hiding the Geode button. Open Geode via custom keybinds or by tapping the top-right corner on mobile.",
 	"tags": [ "interface", "customization", "utility" ],
